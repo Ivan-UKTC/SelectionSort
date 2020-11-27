@@ -2,6 +2,7 @@ import java.util.*;
 
 public class SelectionSort {
     public static void main(String[] args) {
+    
         Scanner scan = new Scanner(System.in);
 
         int[] G = {25, 6, 44, 13, 20,35};
@@ -27,4 +28,3 @@ public class SelectionSort {
             System.out.println("After Sorting : " + Arrays.toString(G));
     }
 }
-
